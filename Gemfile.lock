@@ -260,6 +260,13 @@ GEM
     standard (0.2.5)
       rubocop (~> 0.80.1)
       rubocop-performance (~> 1.5.2)
+    stimulus_reflex (3.3.0)
+      cable_ready (>= 4.3.0)
+      nokogiri
+      rack
+      rails (>= 5.2)
+      redis
+    stimulus_reflex_testing (0.1.0)
     test-prof (0.12.1)
     thor (1.0.1)
     thread_safe (0.3.6)
@@ -313,6 +320,8 @@ DEPENDENCIES
   ruby-next (>= 0.10.0)
   selenium-webdriver
   standard (~> 0.2.0)
+  stimulus_reflex (~> 3.3.0)
+  stimulus_reflex_testing
   test-prof
   turbolinks
   webpacker (~> 4.0)
